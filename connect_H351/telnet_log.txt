@@ -7,4 +7,13 @@ br-lan    Link encap:Ethernet  HWaddr 24:05:0F:54:8D:F8
           collisions:0 txqueuelen:0 
           RX bytes:1771234 (1.6 MiB)  TX bytes:5334157 (5.0 MiB)
 
-root@100msh:/# 
+root@100msh:/# 2015-09-28 11:36:55.835656  ifconfig br-lan
+br-lan    Link encap:Ethernet  HWaddr 24:05:0F:54:8D:F8  
+          inet addr:192.168.11.1  Bcast:192.168.11.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:26819 errors:0 dropped:61 overruns:0 frame:0
+          TX packets:25118 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:2958280 (2.8 MiB)  TX bytes:11548809 (11.0 MiB)
+
+root@100msh
